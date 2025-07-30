@@ -10,9 +10,9 @@ export default function Projects() {
   const { i18n, t } = useTranslation();
 
   useEffect(() => {
-    axios.get("http://localhost:3001/projects")
+    axios.get("/data/projects.json")
       .then((res) => {
-        setProjects(res.data);
+        setProjects(res.data.projects);
         setLoading(false);
       })
       .catch((err) => {
