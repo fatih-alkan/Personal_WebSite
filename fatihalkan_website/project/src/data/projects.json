@@ -1,0 +1,49 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "image": "/images/project-images/pizza_project.jpg",
+      "title": {
+        "en": "Pizza App",
+        "tr": "Pizza Uygulaması"
+      },
+      "description": {
+        "en": "Built a responsive pizza ordering app with a modern UI. Integrated REST APIs for menu, cart, and order features. Managed state using React Context or Redux and styled the interface with styled-components.",
+        "tr": "Modern bir arayüz ile duyarlı bir pizza sipariş uygulaması geliştirildi. Menü, sepet ve sipariş özellikleri için REST API'leri entegre edildi. Durum yönetimi React Context veya Redux ile sağlandı, arayüz styled-components ile tasarlandı."
+      },
+      "github": "https://github.com/fatih-alkan/fsweb-s8-challenge-pizza",
+      "site": "https://fatihalkan-pizza.vercel.app",
+      "technologies": ["React", "Redux", "Axios"]
+    },
+    {
+      "id": 2,
+      "image": "/images/project-images/ecommerce_project.jpg",
+      "title": {
+        "en": "E-Commerce",
+        "tr": "E-Ticaret"
+      },
+      "description": {
+        "en": "Designed and implemented a responsive e-commerce interface based on a modern Figma UI kit. Focused on clean layout, product listings, and seamless user experience across devices.",
+        "tr": "Modern bir Figma UI kit’ine dayanarak duyarlı bir e-ticaret arayüzü tasarlandı ve geliştirildi. Temiz yerleşim, ürün listeleme ve cihazlar arası sorunsuz kullanıcı deneyimine odaklanıldı."
+      },
+      "github": "https://github.com/fatih-alkan/E-Ticaret-FatihAlkan",
+      "site": "https://fatihalkan-eticaret.vercel.app/",
+      "technologies": ["React", "Redux", "Axios"]
+    },
+    {
+      "id": 3,
+      "image": "/images/project-images/derskayit_project.png",
+      "title": {
+        "en": "Course Registration",
+        "tr": "Ders Kayıt Sistemi"
+      },
+      "description": {
+        "en": "A SQL-based desktop application with login functionality. Provides separate panels for admins, advisors, and students. Supports course creation, deletion, updates, and enrollment through a user-friendly interface.",
+        "tr": "Giriş sistemi içeren SQL tabanlı bir masaüstü uygulamasıdır. Yöneticiler, danışmanlar ve öğrenciler için ayrı paneller sunar. Kullanıcı dostu bir arayüz üzerinden ders oluşturma, silme, güncelleme ve kayıt işlemleri desteklenir."
+      },
+      "github": "https://github.com/fatih-alkan/Ders_Kayit_Sistemi",
+      "site": "https://github.com/fatih-alkan/Ders_Kayit_Sistemi",
+      "technologies": ["C#", "Form", "SQL"]
+    }
+  ]
+}
