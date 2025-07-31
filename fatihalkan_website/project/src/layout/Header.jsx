@@ -40,7 +40,7 @@ export default function Header() {
 
   return (
     <header className="dark:bg-def-gray-800">
-      <div className="flex items-center gap-4 text-sm font-medium text-gray-600 justify-end h-16 max-w-6xl mx-auto">
+      <div className="flex items-center gap-4 text-sm font-medium text-gray-600 justify-end h-16 max-w-6xl mx-auto max-[1024px]:max-w-2xl max-[768px]:max-w-xl max-phone:text-[12px] max-phone:w-94 ">
         {/* Dark Mode Toggle */}
         <label
           className="flex items-center cursor-pointer"
@@ -89,14 +89,14 @@ export default function Header() {
         </span>
       </div>
 
-      <nav className="flex justify-between items-center max-w-6xl h-20 mx-auto">
+      <nav className="flex justify-between items-center max-w-6xl h-20 mx-auto max-[1024px]:max-w-4xl max-[768px]:max-w-2xl max-phone:text-[12px] max-phone:w-100 max-phone:px-4">
         <a
           href=""
           className="border-2 rounded-4xl p-2 bg-[#EEEBFF] border-[#EEEBFF]"
         >
           <img className="w-10" src={flogo} alt="" />
         </a>
-        <div className="flex gap-16 items-center">
+        <div className="flex gap-16 items-center max-phone:gap-8">
           <a className="text-def-gray-500 hover:text-def-gray-800 dark:text-gray-300 dark:hover:opacity-70 dark:hover:text-gray-300">
             {t("skills")}
           </a>

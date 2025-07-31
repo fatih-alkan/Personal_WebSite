@@ -12,10 +12,16 @@
   --color-def-lila: #B7AAFF;
   --color-def-indigo-700: #4338CA;
   --color-def-baslik-dark: #AEBCCF;
+  --breakpoint-tablet: 768px;
+  --breakpoint-laptop: 1024px;
+  --breakpoint-phone: 425px;
 }
+
 @custom-variant dark (&:where(.dark, .dark *));
+@custom-variant max-lg (&:media(max-width: 1023px));
+@custom-variant max-md (&:media(max-width: 767px));
+@custom-variant max-sm (&:media(max-width: 639px));
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-
 }
 
