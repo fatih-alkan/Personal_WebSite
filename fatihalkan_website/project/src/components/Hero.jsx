@@ -9,7 +9,7 @@ export default function Hero() {
 
   return (
     <section className="flex max-w-6xl max-h-[440px] mx-auto mt-16 px-12 dark:bg-def-gray-800 max-laptop:max-w-4xl  max-tablet:max-h-[690px] max-tablet:gap-8 max-phone:flex-col-reverse max-phone:max-w-full">
-      <div className="flex flex-col gap-12 flex-2/3 max-laptop:gap-8 max-laptop:flex-1/2 max-phone:w-[424px]">
+      <div className="flex flex-col gap-12 flex-2/3 max-laptop:gap-8 max-laptop:flex-1/2 max-phone:max-w-[424px]">
         <div className="flex items-center gap-4">
           <div className="w-24 h-px bg-def-lila" />
           <h2 className="text-def-lila text-xl font-semibold leading-8 dark:text-def-lila max-tablet:w-40">
@@ -49,7 +49,7 @@ export default function Hero() {
         </div>
       </div>
 
-      <div className="my-auto max-phone:w-[420px]">
+      <div className="my-auto max-phone:max-w-[420px]">
         <img className="h-[370px] max-[900px]:h-72 max-phone:h-100" src={myphoto} alt="Fatih's profile" />
       </div>
     </section>
