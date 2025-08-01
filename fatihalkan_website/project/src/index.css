@@ -23,5 +23,7 @@
 @custom-variant max-sm (&:media(max-width: 639px));
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+
 }
+
 
